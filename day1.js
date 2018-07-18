@@ -24,13 +24,36 @@
 // 	console.log("It's time to swim")
 // }
 
-const temp = 90
-const precipitation = false
-const indoors = true
+// challenge 2 part 2
+// const temp = 90
+// const precipitation = false
+// const indoors = true
 
 
-console.log('The temp is ' + temp +' degrees')
+// console.log('The temp is ' + temp +' degrees')
 
-if ((temp > 80 && !precipitation) || indoors){
-	console.log("It's time to swim")
+// if ((temp > 80 && !precipitation) || indoors){
+// 	console.log("It's time to swim")
+
+// itteration!!!!
+// for (let i = 0; i <= 9; i++) {
+// 	console.log(i);
+// }
+//  Challenge 3--trying
+// var bottles = 99
+// bottle = 'bottles',
+
+
+// if (bottles == 1) {
+// 		bottle = "bottle"
+// }
+
+// Challenge 3 Solution
+
+for (let i = 99; i >= 0; i--) {
+	if (i > 0 ) {
+	console.log(i + 'bottles of beer on the wall!');
+} else {
+		console.log('Get more root beer!')
+}
 }
